@@ -33,7 +33,7 @@ const HeroSection = () => {
         
         {/* SUBTÍTULO */}
         <p className="text-lg md:text-2xl text-slate-300 font-sans font-light mb-12 tracking-wide">
-          Especialistas en procesos sucesorios con <span className="text-[#C5A059] font-semibold underline decoration-1 underline-offset-8">atención personalizada</span>
+          Especialistas en procesos sucesorios en <span className="text-[#C5A059] font-semibold underline decoration-1 underline-offset-8">Argentina</span>
         </p>
         
         {/* BOTÓN DE ACCIÓN (DORADO) */}
@@ -43,7 +43,7 @@ const HeroSection = () => {
           rel="noopener noreferrer"
           className="inline-block bg-[#C5A059] hover:bg-[#b08d4a] text-white font-bold font-sans uppercase tracking-[0.2em] px-12 py-5 rounded-lg transition-all duration-300 shadow-2xl hover:scale-105 text-sm md:text-base"
         >
-          Iniciar Consulta Profesional
+          Realizar Consulta
         </a>
       </div>
 
