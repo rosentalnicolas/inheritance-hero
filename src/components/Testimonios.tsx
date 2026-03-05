@@ -26,6 +26,11 @@ const testimonios = [
     name: "Martin M.",
     year: "2021",
   },
+  {
+    text: "Excelente atención y profesionalismo. Me explicaron todo el proceso desde el primer día y cumplieron con los plazos. Muy recomendables.",
+    name: "Laura P.",
+    year: "2025",
+  },
 ];
 
 const Testimonios = () => {
