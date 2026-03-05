@@ -20,7 +20,7 @@ const googleReviews = [
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-white">
+    <footer className="bg-slate-100 text-slate-900">
       {/* Google Maps + Reviews */}
       <div className="max-w-5xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-10 items-start">
