@@ -20,27 +20,36 @@ const cards = [
 
 const PropuestaValor = () => {
   return (
-    <section className="section-padding bg-card">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="section-title text-primary mb-4">
-          NUESTRA <span className="gold-underline">PROPUESTA</span> DE VALOR
+    /* bg-white para máxima claridad */
+    <section className="py-20 bg-white">
+      <div className="max-w-5xl mx-auto text-center px-4">
+        <h2 className="font-serif text-3xl md:text-4xl text-slate-800 mb-4 uppercase tracking-tight">
+          NUESTRA <span className="text-[#C5A059]">PROPUESTA</span> DE VALOR
         </h2>
-        <p className="text-muted-foreground font-body max-w-2xl mx-auto mb-14">
-          En NR Abogados le ofrecemos a nuestros clientes un servicio integral para iniciar la sucesión <strong>sin cargo</strong> y abonar todo con la <strong>venta de la propiedad</strong>.
+        <p className="text-slate-500 font-sans max-w-2xl mx-auto mb-14 text-sm md:text-base leading-relaxed">
+          En NR Abogados le ofrecemos a nuestros clientes un servicio integral para iniciar la sucesión <span className="text-slate-700 font-semibold underline decoration-[#C5A059]/30">sin cargo</span> y abonar todo con la <span className="text-slate-700 font-semibold underline decoration-[#C5A059]/30">venta de la propiedad</span>.
         </p>
+        
         <div className="grid md:grid-cols-3 gap-8">
           {cards.map((card) => (
             <div
               key={card.title}
-              className="group relative bg-card rounded-2xl p-8 border border-border shadow-sm hover:shadow-2xl hover:border-accent transition-all duration-500 hover:-translate-y-2 overflow-hidden"
+              /* Fondo gris ultra claro (slate-50) que apenas se despega del fondo blanco */
+              className="group relative bg-slate-50/50 rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:bg-white hover:border-[#C5A059]/20 transition-all duration-500 hover:-translate-y-2 overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative z-10">
-                <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mx-auto mb-6 group-hover:bg-accent/20 group-hover:scale-110 transition-all duration-300">
-                  <card.icon className="w-7 h-7 text-accent" />
+                {/* Icono en dorado sobre círculo blanco */}
+                <div className="w-16 h-16 rounded-full bg-white shadow-sm flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-all duration-300 border border-slate-50">
+                  <card.icon className="w-7 h-7 text-[#C5A059]" />
                 </div>
-                <h3 className="font-display text-xl font-bold text-primary mb-3">{card.title}</h3>
-                <p className="text-muted-foreground font-body text-sm leading-relaxed">{card.description}</p>
+                
+                <h3 className="font-serif text-lg font-bold text-slate-800 mb-3 uppercase tracking-wide">
+                  {card.title}
+                </h3>
+                
+                <p className="text-slate-500 font-sans text-sm leading-relaxed">
+                  {card.description}
+                </p>
               </div>
             </div>
           ))}
