@@ -1,9 +1,9 @@
 const stats = [
   { value: 10, suffix: "+", label: "Años de Experiencia" },
   { value: 4, suffix: "", label: "Meses para la Declaratoria" },
-  { value: 400, suffix: "+", label: "Sucesiones Exitosas" },
+  { value: 350, suffix: "+", label: "Sucesiones Exitosas" },
   { value: 100, suffix: "%", label: "Clientes con Declaratoria" },
-  { value: 10, suffix: "+", label: "Inmobiliarias Asociadas" },
+  { value: 7, suffix: "+", label: "Inmobiliarias Asociadas" },
 ];
 
 const Estadisticas = () => {
