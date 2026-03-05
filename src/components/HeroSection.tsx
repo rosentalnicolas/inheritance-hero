@@ -1,5 +1,5 @@
 // Puedes cambiar esta URL por la foto que más te guste
-const heroBg = "https://images.unsplash.com/photo-1625211025590-f6558838561d?q=80&w=2070&auto=format&fit=crop";
+const heroBg = "https://images.unsplash.com/photo-1549421263-52468faba95d?q=80&w=2070&auto=format&fit=crop";
 
 const WHATSAPP_URL = "https://wa.me/5491163739477?text=Hola%2C+quiero+hacer+una+consulta+por+sucesión.";
 
