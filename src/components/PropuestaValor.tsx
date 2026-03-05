@@ -9,7 +9,7 @@ const cards = [
   {
     icon: Percent,
     title: "100% Bonificación",
-    description: "Durante este mes bonificamos el 100% del impuesto a la herencia.",
+    description: "Durante este mes bonificamos el 100% los gastos e impuestos del proceso.",
   },
   {
     icon: Home,

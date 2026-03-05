@@ -4,12 +4,12 @@ const testimonios = [
   {
     text: "Inicie la sucesión en Febrero del 2020. En marzo la pandemia pensé que iba a complicar todo pero no, lo hicieron igual de la mejor manera. Mejor imposible!!",
     name: "Melina T.",
-    year: "2023",
+    year: "2025",
   },
   {
     text: "Me agarró la cuarentena cuando estaba iniciando el trámite. Aún así pude terminar con la sucesión y vender la propiedad. Muchas gracias a los doctores.",
     name: "Guillermo S.",
-    year: "2023",
+    year: "2024",
   },
   {
     text: "Mi caso fue complejo ya que eran varias sucesiones en conjunto. Todo salió perfecto, en tiempo y forma. Además pudimos pagar con la venta del bien.",
