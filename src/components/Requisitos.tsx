@@ -18,7 +18,7 @@ const Requisitos = () => {
           {docs.map((doc, i) => (
             <div
               key={i}
-              className="flex flex-col items-center gap-4 p-6 rounded-xl border border-primary-foreground/10 bg-navy-light/30 backdrop-blur-sm hover:bg-navy-light/50 transition-all"
+             className="flex flex-col items-center gap-4 p-6 rounded-xl border border-slate-200 bg-slate-50/50 backdrop-blur-sm hover:bg-slate-100 hover:border-[#C5A059]/30 transition-all shadow-sm"
             >
               <div className="w-14 h-14 rounded-full bg-accent/15 flex items-center justify-center">
                 <doc.icon className="w-6 h-6 text-accent" />
