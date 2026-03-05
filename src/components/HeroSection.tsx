@@ -1,6 +1,6 @@
 import heroBg from "@/assets/hero-bg.jpg";
 
-const WHATSAPP_URL = "https://wa.me/5491163739477?text=Hola%2C+quiero+hacer+una+consulta.";
+const WHATSAPP_URL = "https://wa.me/5491163739477?text=Hola%2C+quiero+hacer+una+consulta+por+sucesión.";
 
 const HeroSection = () => {
   return (
