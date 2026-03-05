@@ -9,9 +9,9 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <div className="absolute inset-0 bg-navy/75" />
+      <div className="absolute inset-0 bg-slate-950/80" />
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-        <div className="mb-8 inline-flex items-center gap-3 border border-gold/30 rounded-full px-5 py-2 backdrop-blur-sm bg-navy/30">
+        <div className="mb-8 inline-flex items-center gap-3 border border-gold/30 rounded-full px-5 py-2 backdrop-blur-sm bg-slate-950/80">
           <span className="font-display text-xl font-bold tracking-wider text-accent-foreground">
             NR ABOGADOS
           </span>
