@@ -1,3 +1,5 @@
+import { useCountUp } from "@/hooks/useCountUp";
+
 const stats = [
   { value: 10, suffix: "+", label: "Años de Experiencia" },
   { value: 4, suffix: "", label: "Meses para la Declaratoria" },
