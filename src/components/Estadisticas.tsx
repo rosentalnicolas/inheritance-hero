@@ -1,16 +1,3 @@
-{stats.map((stat, index) => (
-  <div key={index} className="flex flex-col items-center p-4">
-    <div className="text-4xl font-bold text-primary mb-2">
-      {/* Reemplazamos la animación por texto directo */}
-      <span>{stat.value}</span>
-      <span>{stat.suffix}</span>
-    </div>
-    <p className="text-sm text-muted-foreground text-center">
-      {stat.label}
-    </p>
-  </div>
-))}
-
 const stats = [
   { value: 10, suffix: "+", label: "Años de Experiencia" },
   { value: 4, suffix: "", label: "Meses para la Declaratoria" },
