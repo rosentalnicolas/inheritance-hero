@@ -1,11 +1,11 @@
 import { useCountUp } from "@/hooks/useCountUp";
 
 const stats = [
-  { value: 10, suffix: "+", label: "Años de Experiencia" },
-  { value: 3, suffix: "", label: "Meses para la Declaratoria" },
-  { value: 500, suffix: "+", label: "Sucesiones Exitosas" },
-  { value: 100, suffix: "%", label: "Clientes con Declaratoria" },
-  { value: 10, suffix: "+", label: "Inmobiliarias Asociadas" },
+  { value: 10, suffix: "+100", label: "Años de Experiencia" },
+  { value: 3, suffix: "3", label: "Meses para la Declaratoria" },
+  { value: 500, suffix: "+250", label: "Sucesiones Exitosas" },
+  { value: 100, suffix: "100%", label: "Clientes con Declaratoria" },
+  { value: 10, suffix: "+10", label: "Inmobiliarias Asociadas" },
 ];
 
 const Estadisticas = () => {
