@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/5491163739477?text=Hola%2C+quiero+hacer+una+consulta+por+sucesión.";
+const WHATSAPP_URL = "https://wa.me/5491163739477?text=Quiero+consultar+por+una+sucesi%C3%B3n";
 
 const links = [
   { label: "Inicio", href: "#inicio" },

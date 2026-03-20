@@ -1,7 +1,7 @@
 // Puedes cambiar esta URL por la foto que más te guste
 const heroBg = "https://images.unsplash.com/photo-1549421263-52468faba95d?q=80&w=2070&auto=format&fit=crop";
 
-const WHATSAPP_URL = "https://wa.me/5491163739477?text=Hola%2C+quiero+hacer+una+consulta+por+sucesión.";
+const WHATSAPP_URL = "https://wa.me/5491163739477?text=Quiero+consultar+por+una+sucesi%C3%B3n";
 
 const HeroSection = () => {
   return (
